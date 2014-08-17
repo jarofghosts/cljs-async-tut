@@ -6,8 +6,6 @@
   (:import [goog.net Jsonp]
            [goog Uri]))
 
-(enable-console-print!)
-
 (def wiki-search-url
   "http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=")
 
